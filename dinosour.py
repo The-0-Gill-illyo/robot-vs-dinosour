@@ -4,3 +4,5 @@ class Dinosours:
         self.name = name
         self.health = health
         self.attack = attack_power
+
+
