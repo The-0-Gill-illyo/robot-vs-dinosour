@@ -1,12 +1,31 @@
+from .weapon import Weapon
+
+
 class Robot:
 
-    def __init__(self, weapon):
-        self.name = "name"
-        self.health = 100
-        self.active_weapon = weapon
+    def __init__(self):
+        self.player.name = "name"
+        self.player.health = 100
+        self.active_weapon = Weapon()
 
     def robot(self, name):
-        self.dino_attack = name
+        self.dinosaur = name
+        pass
 
-    def weapon(self, attack_power):
-        self.active_weapon = attack_power
+
+    # def attack(self, attack):
+    #     self.dinosour = attack
+
+
+    # def attack_dino(self, use_weapon):
+    #     self.dinosour = use_weapon
+        
+
+    # def weapon(self, attack):
+    #     self.active_weapon = attack
+
+    # # def attack(self, dinosour):
+    # #     self. = dinosour
+
+    # # def weapon(self, attack_power):
+    # #     self.active_weapon = attack_power
