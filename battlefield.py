@@ -3,11 +3,12 @@ from dinosaur import Dinosaur
 
 class BattleField:
 
-    def __init__(self, run_game, display_welcome, battle_phase, display_winner):
-        self.run_game = run_game
-        self.display_welcome = display_welcome
-        self.battle_phase = battle_phase
-        self.display_winner = display_winner
+    def __init__(self, start):
+        self.run_game = start
+        self.display_welcome = "welcome"
+        self.battle_phase = 1
+        self.display_winner = "dinosaur"
+
 
 
 
