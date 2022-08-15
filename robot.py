@@ -1,20 +1,32 @@
+from unicodedata import name
+
+from .dinosaur import Dinosaur
 from .weapon import Weapon
 
 
 class Robot:
 
-    def __init__(self):
-        self.player.name = "name"
-        self.player.health = 100
-        self.active_weapon = Weapon()
+    def __init__(self, name):
+        self.name = name
+        self.health = 100
+        self.active_weapon = Weapon("Lazor", 28)
+        pass
+    
+    def attack(self, dinosaur):
+        self.dinosaur = dinosaur
 
-    def attack(self):
-        self.active_weapon = Weapon()
+    # def __init__(self):
+    #     self.player.name = "name"
+    #     self.player.health = 100
+    #     self.active_weapon = Weapon()
+
+    # def attack(self):
+    #     self.active_weapon = Weapon()
 
     
 
-    # def attack(self, attack):
-    #     self.dinosour = attack
+    # # def attack(self, attack):
+    # #     self.dinosour = attack
 
 
     # def attack_dino(self, use_weapon):
