@@ -1,7 +1,5 @@
-from unicodedata import name
-
-from .dinosaur import Dinosaur
-from .weapon import Weapon
+from dinosaur import Dinosaur
+from weapon import Weapon
 
 
 class Robot:
@@ -9,8 +7,8 @@ class Robot:
     def __init__(self, name):
         self.name = name
         self.health = 100
-        self.active_weapon = Weapon("Lazor", 28)
-        pass
+        self.active_weapon = Weapon("Lazer", 21)
+        
     
     def attack(self, dinosaur):
         self.dinosaur = dinosaur
