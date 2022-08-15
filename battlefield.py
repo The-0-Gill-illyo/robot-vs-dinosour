@@ -3,8 +3,8 @@ from dinosaur import Dinosaur
 
 class BattleField:
 
-    def __init__(self, start):
-        self.run_game = start
+    def __init__(self):
+        self.run_game = "start"
         self.display_welcome = "welcome"
         self.battle_phase = 1
         self.display_winner = "dinosaur"
