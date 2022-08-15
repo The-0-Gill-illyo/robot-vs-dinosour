@@ -4,7 +4,5 @@ class Weapon:
         self.name = "name"
         self.attack_power = weapon_type
 
-    def dino_attack(self, name, attack_power):
-        self.name = name
-        self.attack = attack_power
-        pass
+    def attack(self):
+        self.name = Weapon()

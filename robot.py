@@ -8,10 +8,10 @@ class Robot:
         self.player.health = 100
         self.active_weapon = Weapon()
 
-    def robot(self, name):
-        self.dinosaur = name
-        pass
+    def attack(self):
+        self.active_weapon = Weapon()
 
+    
 
     # def attack(self, attack):
     #     self.dinosour = attack
