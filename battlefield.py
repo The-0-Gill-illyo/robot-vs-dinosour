@@ -8,16 +8,16 @@ class BattleField:
         self.dinosaur = Dinosaur("Ramboo", 30)
 
     def run_game(self):
-        pass
+        user_input = input("run game")
 
     def display_message(self):
-        pass
+        print("welcome to Robot vs Dinosaur!")
 
     def battle_phase(self):
-        pass
+        self.battle_phase = BattleField()
     
     def display_winner(self):
-        pass
+        print(BattleField.display_winner)
         
         
         

@@ -7,3 +7,5 @@ raptor = Dinosaur("Godzilla", 28)
 transformer = Robot("Bumble-bee")
 battle_axe = Weapon("battle-axe", 35)
 desert = BattleField()
+
+print(BattleField.display_winner)
