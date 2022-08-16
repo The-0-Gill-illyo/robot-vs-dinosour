@@ -11,7 +11,7 @@ battle_axe = Weapon("battle-axe", 35)
 
 desert = BattleField()
 
-Robot.attack(Dinosaur(Weapon("Battle-axe", 40))).transformer -= Dinosaur("Godzilla", 25).raptor
+Robot.attack(Dinosaur(Weapon("Battle-axe", 35))).transformer -= Dinosaur("Godzilla", 28).raptor
 
 # print(Robot.attack(Robot(transformer), Dinosaur(raptor, 28)))
 
